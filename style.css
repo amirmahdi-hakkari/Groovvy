@@ -395,34 +395,35 @@ button i[class="fas fa-heart"] {
   border-radius: 8px;
   border: none;
   outline: none;
-  flex-grow: 1 !important;
-  margin: 5px;
+  margin: 1.6%;
   color: white;
   height: 60px;
+  font-size: 1vw;
+
 }
 .Geners__container__box--light-blue {
   background-color: #005899;
+  width: 46.8%;
 }
 .Geners__container__box--gold {
   background-color: goldenrod;
-  flex-grow: 1;
-  flex-basis: 46.5%;
+  width: 46.8%;
 }
 .Geners__container__box--orange {
   background-color: #ff6700;
-  flex-grow: 1;
-  flex-basis: 46.5%;
+  width: 57.6%;
 }
 .Geners__container__box--green {
   background-color: #00871d;
+  width: 36%;
 }
 .Geners__container__box--pink {
   background-color: #ff5cff;
+  width: 46.8%;
 }
 .Geners__container__box--purple {
   background-color: purple;
-  flex-grow: 1;
-  flex-basis: 46.5%;
+  width: 46.8%;
 }
 .botton__top-charts {
   width: 65%;
@@ -455,8 +456,7 @@ div[class^="top-charts__box"] {
 }
 div[class^="top-charts__box"] img {
   background-size: cover;
-  width: 40px;
-  height: 40px;
+  width: 8%;
   border-radius: 8px;
 }
 .botton__top-charts div[class^="box--"] {
@@ -465,9 +465,12 @@ div[class^="top-charts__box"] img {
   width: 50%;
 }
 .botton__top-charts div[class^="box--"] p {
-  font-size: 0.7rem;
+  font-size: 1vw;
   padding-top: 5px;
   color: rgb(180, 179, 179);
+}
+.botton__top-charts div[class^="box--"] h5 {
+  font-size: 1.2vw;
 }
 
 div[class^="top-charts__box"] button {
@@ -493,11 +496,11 @@ a i[class="far fa-plus-square"] {
   padding-top: 10px;
 }
 .player__top__header {
+  width: 90%;
+  height: 15%;
+  color: white;
   display: flex;
   justify-content: space-between;
-  color: white;
-  text-decoration: none;
-  width: 90%;
   margin: auto;
 }
 
@@ -509,14 +512,12 @@ a i[class="far fa-plus-square"] {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
-  height: 200px;
+  justify-content: center;
   color: white;
 }
 .player__top__cover img {
   background-size: cover;
-  width: 180px;
-  height: 150px;
+  width: 50%;
   border-radius: 8px;
 }
 .player__footer {
@@ -572,4 +573,4 @@ a i[class="far fa-plus-square"] {
 audio {
   display: none;
 }
-/
+
