@@ -1,0 +1,575 @@
+body {
+  display: flex;
+}
+
+#aside {
+  background-color: #19181e;
+  width: 11%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+aside header {
+  color: whitesmoke;
+  text-align: center;
+}
+aside h4 {
+  color: rgb(180, 179, 179);
+  font-weight: bold;
+  font-size: 0.7vw;
+}
+
+.aside__items {
+  width: 80%;
+  min-height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.aside__items__item i {
+  margin-right: 5%;
+  color: whitesmoke;
+  font-size: 0.8vw;
+}
+
+.aside__items__item a {
+  color: whitesmoke;
+  line-height: 30px;
+  text-decoration: none;
+  font-size: 1vw;
+}
+.aside__bottom {
+  width: 100%;
+}
+.aside__img-box {
+  width: 100%;
+  color: whitesmoke;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.aside__img-box .img {
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.aside__img-box p {
+  width: 40%;
+  font-size: 1vw;
+}
+
+.aside__pragraph-box {
+  width: 100%;
+  min-height: 35px;
+  background-color: rgb(58, 54, 54);
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw;
+}
+
+main {
+  width: 89%;
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.nav {
+  width: 87vw;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  font-size: 1.1vw;
+}
+.main__nav__menu{
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+.main__nav__menu a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.nav__search {
+  background-color: #3d3c3d;
+  min-width: 200px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.nav__search i {
+  margin-right: 2px;
+  color: white;
+  font-size: 15px;
+}
+
+.nav__search input {
+  background-color: #3d3c3d;
+  color: whitesmoke;
+  border: none;
+  outline: none;
+}
+
+.nav__panel {
+  width: 17%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__element i {
+  color: whitesmoke;
+  margin-right: 10px;
+  font-size: 1vw;
+}
+
+.nav__profile {
+  display: flex;
+  align-items: center;
+}
+
+.nav__profile i {
+  align-items: center;
+}
+
+.nav__panel {
+  display: flex;
+}
+
+.profile {
+  background-color: #3f3840;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px 0px 0px 5px;
+}
+
+img[src="./img/profile.jpeg"] {
+  width: 30px;
+  height: 30px;
+}
+.paragraph{
+  width:100%;
+  background-color: #24222d;
+}
+.paragraph a {
+  color: white;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 5px 5px 0px;
+  text-decoration: none;
+  font-size: 1vw;
+}
+
+main header {
+  background-image: url(./img/869777.jpg);
+  background-position: right;
+  background-size: contain;
+  background-color: black;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 70px;
+}
+
+header p {
+  color: white;
+}
+
+.header__p--trend {
+  font-size: 0.8rem;
+  padding: 20px 0px 0px 30px;
+}
+
+.header__p--title {
+  font-size: 3rem;
+  padding: 20px 0px 0px 30px;
+}
+
+.header__container {
+  display: flex;
+  width: 100%;
+}
+
+.header__p--artist {
+  font-size: 1.3rem;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.header__p--play {
+  padding-left: 30px;
+  padding-top: 14px;
+  font-size: 0.8rem;
+}
+
+button.header__button--listen {
+  background-color: #5971ff;
+  border-radius: 15px;
+  width: 100px;
+  height: 30px;
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+button.header__button--like {
+  background-color: black;
+  border-radius: 15px;
+  width: 10px;
+  height: 40px;
+  margin-top: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+header button i {
+  color: #5971ff;
+  border: 2px solid white;
+  width: 30px;
+  height: 30px;
+  border-radius: 500px;
+}
+
+button i[class="fas fa-heart"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main__container__left {
+  width: 68%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-Artists {
+  background-color: #19181e;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 8px;
+  padding-bottom: 10px;
+}
+.top-Artists__header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  width: 90%;
+  margin: 12px auto 0;
+}
+.top-Artists__header a {
+  text-decoration: none;
+  color: rgb(180, 179, 179);
+}
+
+.top-Artists [class*="top-Artists__cild"] {
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+  border-radius: 12px;
+}
+.top-Artists__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.top-Artists__child-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-Artists__child-container h5 {
+  margin-top: 9px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.top-Artists__child-container p {
+  margin-top: 9px;
+  font-size: 0.7rem;
+}
+
+.top-Artists__cild--travis {
+  background-image: url(./img/Travis-Scott.jpg);
+  background-size: cover;
+}
+
+.top-Artists__cild--bille {
+  background-image: url(./img/Elilsh.jpg);
+  background-size: cover;
+}
+
+.top-Artists__cild--kld {
+  background-image: url(./img/kld.jpg);
+  background-size: cover;
+}
+
+.top-Artists__cild--kenye {
+  background-image: url(./img/dg.jpg);
+  background-size: cover;
+}
+
+.top-Artists__cild--nicky {
+  background-image: url(./img/nicki.jpg);
+  background-size: cover;
+}
+
+.top-Artists__cild--starboy {
+  background-image: url(./img/starboy.jpg);
+  background-size: cover;
+}
+
+.bottom {
+  width: 100%;
+  height: 250px;
+  display: flex;
+}
+.Geners__container a {
+  color: white;
+  text-decoration: none;
+}
+
+.botton__Geners {
+  background-color: #19181e;
+  width: 35%;
+  border-radius: 8px;
+}
+.Geners__container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.Geners__header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  text-decoration: none;
+  width: 90%;
+  margin: 12px auto;
+}
+
+.Geners__header a {
+  text-decoration: none;
+  color: rgb(180, 179, 179);
+}
+[class*="Geners__container__box"] {
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  flex-grow: 1 !important;
+  margin: 5px;
+  color: white;
+  height: 60px;
+}
+.Geners__container__box--light-blue {
+  background-color: #005899;
+}
+.Geners__container__box--gold {
+  background-color: goldenrod;
+  flex-grow: 1;
+  flex-basis: 46.5%;
+}
+.Geners__container__box--orange {
+  background-color: #ff6700;
+  flex-grow: 1;
+  flex-basis: 46.5%;
+}
+.Geners__container__box--green {
+  background-color: #00871d;
+}
+.Geners__container__box--pink {
+  background-color: #ff5cff;
+}
+.Geners__container__box--purple {
+  background-color: purple;
+  flex-grow: 1;
+  flex-basis: 46.5%;
+}
+.botton__top-charts {
+  width: 65%;
+  background-color: #19181e;
+  margin-left: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.top-charts__header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  width: 90%;
+  margin: auto;
+}
+.top-charts__header a {
+  text-decoration: none;
+  color: rgb(180, 179, 179);
+}
+div[class^="top-charts__box"] {
+  color: white;
+  width: 90%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+div[class^="top-charts__box"] img {
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+.botton__top-charts div[class^="box--"] {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.botton__top-charts div[class^="box--"] p {
+  font-size: 0.7rem;
+  padding-top: 5px;
+  color: rgb(180, 179, 179);
+}
+
+div[class^="top-charts__box"] button {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 7.5px 9px;
+}
+a i[class="far fa-plus-square"] {
+  color: white;
+}
+.player {
+  width: 27%;
+  height: 430px;
+  background-color: #19181e;
+  border-radius: 8px;
+}
+.player__top {
+  width: 100%;
+  height: calc(70% - 10px);
+  padding-top: 10px;
+}
+.player__top__header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  text-decoration: none;
+  width: 90%;
+  margin: auto;
+}
+
+.player__top__header a {
+  text-decoration: none;
+  color: rgb(180, 179, 179);
+}
+.player__top__cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 200px;
+  color: white;
+}
+.player__top__cover img {
+  background-size: cover;
+  width: 180px;
+  height: 150px;
+  border-radius: 8px;
+}
+.player__footer {
+  width: 100%;
+  height: 30%;
+  background-color: #5a72ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.player__footer__navigation {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.player__footer button i {
+  color: white;
+}
+.player__footer button:not([id="play"]) {
+  background-color: transparent;
+  height: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+#play {
+  background-color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+}
+
+#play i {
+  color: #5a72ff;
+}
+
+.player__footer__lyrics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+.player__footer__lyrics a {
+  text-decoration: none;
+  color: white;
+}
+audio {
+  display: none;
+}
+/
